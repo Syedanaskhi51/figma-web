@@ -1,0 +1,214 @@
+body {
+    margin: 10px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    /* border: 2px solid black ; */
+    height: 10vh;
+    background-color: rgb(255, 254, 254);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.navtext li {
+    float: left;
+    list-style: none;
+    padding: 0px 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navtext ul li a {
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.navtext ul li a:hover {
+    color: #5551ff;
+}
+
+
+button {
+    background-color: black;
+    color: white;
+    /* padding: 14px 24px 16px; */
+    border-radius: 10px;
+    cursor: pointer;
+    width: 250px;
+    font-size: larger;
+    height: 40px;
+    width: 220px;
+    padding-right: 20px;
+}
+
+button:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+span img {
+    height: 40px;
+    width: 40px;
+    color: blueviolet;
+}
+
+/* heading */
+
+h1 {
+    font-size: 4.5rem;
+}
+
+#one {
+    color: #008000;
+}
+
+#two {
+    color: rgb(129, 6, 123);
+}
+
+#three {
+    color: rgb(198, 54, 1);
+}
+
+/* heading */
+
+/* Button */
+
+.h1btn>button {
+    background-color: #5551ff;
+    height: 60px;
+    width: 250px;
+    border: none;
+    box-shadow: 2px 5px 6px rgb(171, 169, 169);
+}
+
+/* Button */
+
+/* <!-- images one {open} --> */
+
+.fisrtimage>img {
+    display: flex;
+    height: 700px;
+    width: 1400px;
+    margin-top: 50px;
+}
+
+/* <!-- images one {close} --> */
+
+/* Trusted by teams at */
+h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Trusted by teams at */
+
+.container01 {
+
+    background-color: rgb(187, 30, 30);
+    height: 900px;
+    width: auto;
+
+
+}
+
+.container01>h1 {
+    padding: 50px 0px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.container01>img {
+    height: auto;
+    width: 900px;
+    padding: 0px 160px;
+
+}
+
+.container01>p {
+
+    font: 1.5em sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    width: 1200px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 40px;
+
+}
+
+.container02>img {
+    height: 800px;
+    width: 1324px;
+
+}
+
+/* ///////      footer  start    //////// */
+
+footer {
+    padding: 100px 0px;
+    background-color: black;
+    height: 1200px;
+    color: rgb(255, 255, 255);
+}
+
+footer h1 {
+    padding-left: 50px;
+}
+
+h1>span {
+    color: #5551ff;
+}
+
+.footer-list h3 {
+    padding-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
+}
+
+.footer-list ul li {
+    padding-left: 60px;
+    list-style: none;
+    margin: 15px;
+    transition: 0.5c all;
+    font-family: 'Poppins', sans-serif;
+
+
+
+
+}
+
+.footer-list ul li:hover {
+    transition: 100%;
+    color: #5551ff;
+}
+
+.footer-list {
+    float: left;
+    width: 33%;
+}
+
+
+/* button{
+
+    color:whitesmoke;
+    background-color: #5551ff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius:6px;
+    
+} */
+
